@@ -18,5 +18,13 @@ pipeline{
                 '''
             }
     }
+
+     stage("disk-usage "){
+            steps{
+                sh '''
+                echo "Poll checking"
+                '''
+            }
+       }
     }
 }
